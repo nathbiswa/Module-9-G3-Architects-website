@@ -3,5 +3,44 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+#work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+}
+
+/* Share code */
+.fix-width{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #FF900E;
+}
+.d-flex{
+    display: flex;
+}
+.d-grid{
+    display: grid;
+}
+
+
+/* Header Section */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item{
+    gap: 20px;
+}
+
+
+
+
+
 
 
