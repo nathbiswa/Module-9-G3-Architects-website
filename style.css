@@ -18,9 +18,8 @@
     margin: 0 auto;
 }
 
-header {
+.bg-primary {
     background-color: #fff4e7;
-    ;
 }
 
 .d-flex {
@@ -33,22 +32,34 @@ header {
 
 .btn-primary {
     padding: 20px 24px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FFFFFF;
     background-color: #FF900E;
     border-radius: 8px;
     margin-bottom: 25px;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
+main>section {
+    margin-top: 130px;
+}
+
+/* Hover part */
+
+.btn-primary:hover {
+    background-color: #727272;
+    color: #131313;
+}
 
 /* Header Section */
 .navbar {
     justify-content: space-between;
     align-items: center;
     height: 98px;
+    margin: 0 auto;
 }
 
 .menu-item {
@@ -71,7 +82,7 @@ img{
 }
 
 .hero-articale h1 {
-    font-size: 30px;
+    font-size: 4rem;
     color: #131313;
     margin-top: 50px;
 }
@@ -83,3 +94,74 @@ img{
     padding: 25px 0px;
     font-weight: 400;
 }
+
+.hero-img img {
+    margin: 20px 0;
+}
+
+
+/* feature-section */
+
+.feature-items {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.feature-item-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 50%;
+}
+
+.feature-item-img img {
+    max-width: 100%;
+}
+
+.feature-item-content {
+    width: 550px;
+}
+
+.feature-item-content p {
+    color: #727272;
+    font-size: 1rem;
+    line-height: 22px;
+    margin: 12px 0px;
+}
+
+.feature-heading .Quick-list {
+    color: #727272;
+    font-size: 45px;
+}
+
+.feature-heading .of-Our {
+    color: #131313;
+    font-size: 45px;
+}
+
+.feature-heading .Features {
+    color: #FF900E;
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen (max-width: 576px) {}
