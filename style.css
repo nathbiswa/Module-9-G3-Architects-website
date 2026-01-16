@@ -144,8 +144,55 @@ main>section {
     color: #FF900E;
     font-size: 45px;
 }
+/* card-section */
 
 
+.card-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.card-header h1 {
+    font-size: 3rem;
+    width: 460px;
+    color: #131313;
+}
+#card-title{
+    border-left: 2px solid #FF900E;
+    margin-right: 20px;
+}
+.card-header p {
+    font-size: 16px;
+    color: #727272;
+    line-height: 1.5rem;
+    margin: 20px 0;
+}
+.card-item {
+    padding: 24px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 460px;
+}
+.card-item h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.card-item p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.24rem;
+}
+
+.card-img-btn {
+    padding: 42px 45px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-left: -56px;
+    margin-top: -100px;
+}
 
 
 
